@@ -103,9 +103,18 @@ cursor: pointer;
     border-bottom: 2px solid var(--branco);
     padding: 24px;
     margin: 0px;
-
 }
 
+
+label {
+    font-size: 20px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{ 
         flex-direction: row;
